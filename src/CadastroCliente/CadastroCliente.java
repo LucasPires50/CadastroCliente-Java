@@ -8,12 +8,12 @@ public class CadastroCliente {
 
 
     public static void main(String[] args) {
-        // uma variavel ter variaos valores dentro 
+        // uma variável ter vários valores dentro 
         
         //criar um novo cliente
-        // o cliente passa a ser a vairiavel, onde conten varias varias diferentes int, string, boolean, double. (eu que determino classe secundaria)
+        // o cliente passa a ser a variável, onde contem varias varias diferentes int, string, boolean, double. (eu que determino classe secundária)
         Cliente cli = new Cliente();
-        // o "cli" é uma varial do tipo cliente.
+        // o "cli" é uma variável do tipo cliente.
         
         cli.codigo = 101;
         cli.nome = "Lucas";
@@ -27,12 +27,12 @@ public class CadastroCliente {
         
         //System.out.println("Nome: "+cli.nome);
         
-        //array para guarda cliente
+        //array para guardar cliente
        
         Cliente[] ListaDeClientes = new Cliente[4];
         ListaDeClientes[0] = cli;
         
-        //aqui zera a variavle para preencher a proxima posição
+        //aqui zera a variavel para preencher a próxima posição
         cli = new Cliente();
         
         cli.codigo = 1030;
@@ -89,4 +89,3 @@ public class CadastroCliente {
                 
     }
     
-
